@@ -4,6 +4,7 @@
   width: 1440px; 
   height: 900px;
   text-align:center;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 .text{
@@ -16,7 +17,7 @@
 .div1{
   position: relative;
   border-radius: 25px;
-  background-color:ghostwhite;
+  background-color:#E8F6EF;
   width: 400px;
   height: 700px;
   
@@ -37,6 +38,8 @@
   background-color: rgb(199, 211, 199);
   margin: auto;
   position: relative;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .music-icon{
@@ -71,11 +74,19 @@ a{
   text-align: end;
 }
 
-.button{
+.div5{
   position: absolute;
+  top: 610px;
+  left: 150px;
+  color: grey;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .button-proceed {
+  position: absolute;
+  top: 550px;
+  left: 35px;
   background: #18149D;
   background-image: -webkit-linear-gradient(top, #18149D, #18149D);
   background-image: -moz-linear-gradient(top, #18149D, #18149D);
@@ -89,7 +100,7 @@ a{
   line-height: 10px;
   color: #FFFFFF;
   font-family: Arial;
-  width: 340px;
+  width: 300px;
   font-size: 16px;
   font-weight: 600;
   padding: 16px;
